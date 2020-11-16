@@ -1,1 +1,1 @@
-module.exports = require('./lib/search-query-parser');
+module.exports = require("./lib/search-query-parser");

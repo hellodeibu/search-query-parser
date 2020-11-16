@@ -29,4 +29,12 @@ export interface SearchParserResult extends ISearchParserDictionary {
   exclude?: ISearchParserDictionary;
 }
 
-export function parse(string: string, options?: SearchParserOptions): string | SearchParserResult;
+export function parse(
+  string: string,
+  options?: SearchParserOptions
+): string | SearchParserResult;
+
+export function stringify(
+  searchParserResult: string | SearchParserResult,
+  options?: SearchParserOptions
+): string;
