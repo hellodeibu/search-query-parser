@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/nepsilon/search-query-parser",
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^8.2.1",
     "should": "^3.2.0",
     "typedoc": "^0.16.11",
     "typedoc-plugin-markdown": "^1.1.27",
